@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+
+    </head>
+    <body>
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <h1 id="title">Tell Me About Something about phones</h1>
+        <p id="description">This is a survey where you can tell us about which phone brand you prefer</p>
+        <form id="survey-form">
+            <label id="name-label">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="First Name"></input><br>
+            <label id="email-label">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Your Email"></input><br>
+            <label id="number-label">Number:</label>
+            <input type="number" name="number" id="number" min="0" max="10" required placeholder="Number"></input><br>
+            <select id= "dropdown" name= "phone brands">
+                <option value="samsung">Samsung</option>
+                <option value="iphone">iphone</option>
+                <option value="huawei">Huawei</option>
+                <option value="xiaomi">Xiaomi</option>
+                <option value="pixel">Pixel</option>
+                <option value="oneplus">Oneplus</option>
+            </select><br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Femaale<br>
+            <input type="radio" name="gender" value="other"> Other<br>
+
+            <input type="checkbox" name="type1" value="foldablephone"> Foldable phone<br>
+            <input type="checkbox" name="type2" value="Normaldisplayphone"> Normal display phone<br>
+            <input type="checkbox" name="type3" value="tablet"> Tablet<br>
+
+            <textarea placeholder="Additional comments"></textarea>
+
+
+            <input type="submit" id="submit">
+        
+
+
+
+        </form>
+    </body>
+
+</html>
